@@ -27,8 +27,8 @@ struct PromptView: View {
                 .font(.headline)
             
             
-            Button("Handleliste") {
-                let prompt2 = "Lag en detaljert handleliste basert på brukerens ønske. Brukeren vil gi deg et ord eller en setning og du må tolke den og komme med en handleliste"
+            Button("Shopping list") {
+                let prompt2 = "Make a shopping list for food items as per the user request. "
                 viewModel.clearMessages()
                 viewModel.api.updateSystemPrompt(selectedPrompt: prompt2)
                 presentationMode.wrappedValue.dismiss()
@@ -36,7 +36,7 @@ struct PromptView: View {
             .buttonStyle(CustomButtonStyle())
             
             Button("Matretter") {
-                let prompt3 = "Lag en detaljert oppskrift basert på brukerens ønske. Du kan selv velge oppskriften. Svaret må inneholde navn, introduksjon, forberedelsestid, Totaltid, serveringsmengde, ingridienser, fremgangsmåte, kostnad, avslutting."
+                let prompt3 = "Act like a colunary expert. Make detailed recipes based on the users request."
                 viewModel.clearMessages()
                 viewModel.api.updateSystemPrompt(selectedPrompt: prompt3)
                 presentationMode.wrappedValue.dismiss()

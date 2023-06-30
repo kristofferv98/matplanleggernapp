@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct XCAChatGPTApp: App {
+struct SwiftOpenAI_StreamingResponseApp: App {
     
     @StateObject var vm = ViewModel(api: ChatGPTAPI(apiKey: "INSERT_API_KEY"))
     @State var isShowingPrompt = false

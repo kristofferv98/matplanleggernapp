@@ -11,9 +11,9 @@
 		4AAB6FA42A260E9600433FE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FA32A260E9600433FE7 /* ContentView.swift */; };
 		4AAB6FA62A260E9800433FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AAB6FA52A260E9800433FE7 /* Assets.xcassets */; };
 		4AAB6FA92A260E9800433FE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AAB6FA82A260E9800433FE7 /* Preview Assets.xcassets */; };
-		4AAB6FB32A260E9800433FE7 /* Matplanleggern2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FB22A260E9800433FE7 /* Matplanleggern2Tests.swift */; };
-		4AAB6FBD2A260E9800433FE7 /* Matplanleggern2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FBC2A260E9800433FE7 /* Matplanleggern2UITests.swift */; };
-		4AAB6FBF2A260E9800433FE7 /* Matplanleggern2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FBE2A260E9800433FE7 /* Matplanleggern2UITestsLaunchTests.swift */; };
+		4AAB6FB32A260E9800433FE7 /* SwiftOpenAI_StreamingResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FB22A260E9800433FE7 /* SwiftOpenAI_StreamingResponseTests.swift */; };
+		4AAB6FBD2A260E9800433FE7 /* SwiftOpenAI_StreamingResponseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FBC2A260E9800433FE7 /* SwiftOpenAI_StreamingResponseUITests.swift */; };
+		4AAB6FBF2A260E9800433FE7 /* SwiftOpenAI_StreamingResponseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FBE2A260E9800433FE7 /* SwiftOpenAI_StreamingResponseUITestsLaunchTests.swift */; };
 		4AAB6FCC2A260ECD00433FE7 /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FCB2A260ECD00433FE7 /* ChatGPTAPI.swift */; };
 		4AAB6FCE2A260F5200433FE7 /* DotLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FCD2A260F5200433FE7 /* DotLoadingView.swift */; };
 		4AAB6FD02A260F8000433FE7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FCF2A260F8000433FE7 /* ViewModel.swift */; };
@@ -25,7 +25,7 @@
 		4AAB6FDC2A26106400433FE7 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FDB2A26106400433FE7 /* MessageRowView.swift */; };
 		4AAB6FDF2A2610E700433FE7 /* Markdown in Frameworks */ = {isa = PBXBuildFile; productRef = 4AAB6FDE2A2610E700433FE7 /* Markdown */; };
 		4AAB6FE22A26110200433FE7 /* Highlighter in Frameworks */ = {isa = PBXBuildFile; productRef = 4AAB6FE12A26110200433FE7 /* Highlighter */; };
-		4AAB6FE42A26128000433FE7 /* Matplanleggern2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FE32A26128000433FE7 /* Matplanleggern2App.swift */; };
+		4AAB6FE42A26128000433FE7 /* SwiftOpenAI_StreamingResponse2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FE32A26128000433FE7 /* SwiftOpenAI_StreamingResponse2App.swift */; };
 		4AAB6FED2A26139A00433FE7 /* GPTEncoder in Frameworks */ = {isa = PBXBuildFile; productRef = 4AAB6FEC2A26139A00433FE7 /* GPTEncoder */; };
 		4AAB6FF02A26148900433FE7 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4AAB6FEF2A26148900433FE7 /* OpenAISwift */; };
 		4AAB70002A2AA8A100433FE7 /* PromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FFF2A2AA8A100433FE7 /* PromptView.swift */; };
@@ -49,16 +49,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4AAB6F9E2A260E9600433FE7 /* Matplanleggern2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matplanleggern2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAB6F9E2A260E9600433FE7 /* SwiftOpenAI_StreamingResponse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftOpenAI_StreamingResponse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AAB6FA12A260E9600433FE7 /* ChatGPTAPIModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = ChatGPTAPIModels.swift; sourceTree = "<group>"; };
 		4AAB6FA32A260E9600433FE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4AAB6FA52A260E9800433FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AAB6FA82A260E9800433FE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4AAB6FAE2A260E9800433FE7 /* Matplanleggern2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Matplanleggern2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AAB6FB22A260E9800433FE7 /* Matplanleggern2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matplanleggern2Tests.swift; sourceTree = "<group>"; };
-		4AAB6FB82A260E9800433FE7 /* Matplanleggern2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Matplanleggern2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AAB6FBC2A260E9800433FE7 /* Matplanleggern2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matplanleggern2UITests.swift; sourceTree = "<group>"; };
-		4AAB6FBE2A260E9800433FE7 /* Matplanleggern2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matplanleggern2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4AAB6FAE2A260E9800433FE7 /* SwiftOpenAI_StreamingResponseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftOpenAI_StreamingResponseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAB6FB22A260E9800433FE7 /* SwiftOpenAI_StreamingResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOpenAI_StreamingResponseTests.swift; sourceTree = "<group>"; };
+		4AAB6FB82A260E9800433FE7 /* SwiftOpenAI_StreamingResponseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftOpenAI_StreamingResponseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAB6FBC2A260E9800433FE7 /* SwiftOpenAI_StreamingResponseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOpenAI_StreamingResponseUITests.swift; sourceTree = "<group>"; };
+		4AAB6FBE2A260E9800433FE7 /* SwiftOpenAI_StreamingResponseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOpenAI_StreamingResponseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4AAB6FCB2A260ECD00433FE7 /* ChatGPTAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAPI.swift; sourceTree = "<group>"; };
 		4AAB6FCD2A260F5200433FE7 /* DotLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLoadingView.swift; sourceTree = "<group>"; };
 		4AAB6FCF2A260F8000433FE7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		4AAB6FD72A260FFD00433FE7 /* ResponseParsingTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseParsingTask.swift; sourceTree = "<group>"; };
 		4AAB6FD92A26101D00433FE7 /* CodeBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBlockView.swift; sourceTree = "<group>"; };
 		4AAB6FDB2A26106400433FE7 /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
-		4AAB6FE32A26128000433FE7 /* Matplanleggern2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matplanleggern2App.swift; sourceTree = "<group>"; };
+		4AAB6FE32A26128000433FE7 /* SwiftOpenAI_StreamingResponse2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOpenAI_StreamingResponse2App.swift; sourceTree = "<group>"; };
 		4AAB6FFF2A2AA8A100433FE7 /* PromptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromptView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,9 +104,9 @@
 		4AAB6F952A260E9600433FE7 = {
 			isa = PBXGroup;
 			children = (
-				4AAB6FA02A260E9600433FE7 /* Matplanleggern2 */,
-				4AAB6FB12A260E9800433FE7 /* Matplanleggern2Tests */,
-				4AAB6FBB2A260E9800433FE7 /* Matplanleggern2UITests */,
+				4AAB6FA02A260E9600433FE7 /* SwiftOpenAI_StreamingResponse */,
+				4AAB6FB12A260E9800433FE7 /* SwiftOpenAI_StreamingResponseTests */,
+				4AAB6FBB2A260E9800433FE7 /* SwiftOpenAI_StreamingResponseUITests */,
 				4AAB6F9F2A260E9600433FE7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,19 +114,19 @@
 		4AAB6F9F2A260E9600433FE7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4AAB6F9E2A260E9600433FE7 /* Matplanleggern2.app */,
-				4AAB6FAE2A260E9800433FE7 /* Matplanleggern2Tests.xctest */,
-				4AAB6FB82A260E9800433FE7 /* Matplanleggern2UITests.xctest */,
+				4AAB6F9E2A260E9600433FE7 /* SwiftOpenAI_StreamingResponse.app */,
+				4AAB6FAE2A260E9800433FE7 /* SwiftOpenAI_StreamingResponseTests.xctest */,
+				4AAB6FB82A260E9800433FE7 /* SwiftOpenAI_StreamingResponseUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4AAB6FA02A260E9600433FE7 /* Matplanleggern2 */ = {
+		4AAB6FA02A260E9600433FE7 /* SwiftOpenAI_StreamingResponse */ = {
 			isa = PBXGroup;
 			children = (
 				4AAB6FA12A260E9600433FE7 /* ChatGPTAPIModels.swift */,
 				4AAB6FCB2A260ECD00433FE7 /* ChatGPTAPI.swift */,
-				4AAB6FE32A26128000433FE7 /* Matplanleggern2App.swift */,
+				4AAB6FE32A26128000433FE7 /* SwiftOpenAI_StreamingResponse2App.swift */,
 				4AAB6FCD2A260F5200433FE7 /* DotLoadingView.swift */,
 				4AAB6FA32A260E9600433FE7 /* ContentView.swift */,
 				4AAB6FCF2A260F8000433FE7 /* ViewModel.swift */,
@@ -140,7 +140,7 @@
 				4AAB6FFF2A2AA8A100433FE7 /* PromptView.swift */,
 				4AAB6FA72A260E9800433FE7 /* Preview Content */,
 			);
-			path = Matplanleggern2;
+			path = SwiftOpenAI_StreamingResponse;
 			sourceTree = "<group>";
 		};
 		4AAB6FA72A260E9800433FE7 /* Preview Content */ = {
@@ -151,29 +151,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4AAB6FB12A260E9800433FE7 /* Matplanleggern2Tests */ = {
+		4AAB6FB12A260E9800433FE7 /* SwiftOpenAI_StreamingResponseTests */ = {
 			isa = PBXGroup;
 			children = (
-				4AAB6FB22A260E9800433FE7 /* Matplanleggern2Tests.swift */,
+				4AAB6FB22A260E9800433FE7 /* SwiftOpenAI_StreamingResponseTests.swift */,
 			);
-			path = Matplanleggern2Tests;
+			path = SwiftOpenAI_StreamingResponseTests;
 			sourceTree = "<group>";
 		};
-		4AAB6FBB2A260E9800433FE7 /* Matplanleggern2UITests */ = {
+		4AAB6FBB2A260E9800433FE7 /* SwiftOpenAI_StreamingResponseUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4AAB6FBC2A260E9800433FE7 /* Matplanleggern2UITests.swift */,
-				4AAB6FBE2A260E9800433FE7 /* Matplanleggern2UITestsLaunchTests.swift */,
+				4AAB6FBC2A260E9800433FE7 /* SwiftOpenAI_StreamingResponseUITests.swift */,
+				4AAB6FBE2A260E9800433FE7 /* SwiftOpenAI_StreamingResponseUITestsLaunchTests.swift */,
 			);
-			path = Matplanleggern2UITests;
+			path = SwiftOpenAI_StreamingResponseUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4AAB6F9D2A260E9600433FE7 /* Matplanleggern2 */ = {
+		4AAB6F9D2A260E9600433FE7 /* SwiftOpenAI_StreamingResponse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AAB6FC22A260E9800433FE7 /* Build configuration list for PBXNativeTarget "Matplanleggern2" */;
+			buildConfigurationList = 4AAB6FC22A260E9800433FE7 /* Build configuration list for PBXNativeTarget "SwiftOpenAI_StreamingResponse" */;
 			buildPhases = (
 				4AAB6F9A2A260E9600433FE7 /* Sources */,
 				4AAB6F9B2A260E9600433FE7 /* Frameworks */,
@@ -183,7 +183,7 @@
 			);
 			dependencies = (
 			);
-			name = Matplanleggern2;
+			name = SwiftOpenAI_StreamingResponse;
 			packageProductDependencies = (
 				4AAB6FDE2A2610E700433FE7 /* Markdown */,
 				4AAB6FE12A26110200433FE7 /* Highlighter */,
@@ -191,12 +191,12 @@
 				4AAB6FEF2A26148900433FE7 /* OpenAISwift */,
 			);
 			productName = Matplanleggern2;
-			productReference = 4AAB6F9E2A260E9600433FE7 /* Matplanleggern2.app */;
+			productReference = 4AAB6F9E2A260E9600433FE7 /* SwiftOpenAI_StreamingResponse.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4AAB6FAD2A260E9800433FE7 /* Matplanleggern2Tests */ = {
+		4AAB6FAD2A260E9800433FE7 /* SwiftOpenAI_StreamingResponseTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AAB6FC52A260E9800433FE7 /* Build configuration list for PBXNativeTarget "Matplanleggern2Tests" */;
+			buildConfigurationList = 4AAB6FC52A260E9800433FE7 /* Build configuration list for PBXNativeTarget "SwiftOpenAI_StreamingResponseTests" */;
 			buildPhases = (
 				4AAB6FAA2A260E9800433FE7 /* Sources */,
 				4AAB6FAB2A260E9800433FE7 /* Frameworks */,
@@ -207,14 +207,14 @@
 			dependencies = (
 				4AAB6FB02A260E9800433FE7 /* PBXTargetDependency */,
 			);
-			name = Matplanleggern2Tests;
+			name = SwiftOpenAI_StreamingResponseTests;
 			productName = Matplanleggern2Tests;
-			productReference = 4AAB6FAE2A260E9800433FE7 /* Matplanleggern2Tests.xctest */;
+			productReference = 4AAB6FAE2A260E9800433FE7 /* SwiftOpenAI_StreamingResponseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4AAB6FB72A260E9800433FE7 /* Matplanleggern2UITests */ = {
+		4AAB6FB72A260E9800433FE7 /* SwiftOpenAI_StreamingResponseUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AAB6FC82A260E9800433FE7 /* Build configuration list for PBXNativeTarget "Matplanleggern2UITests" */;
+			buildConfigurationList = 4AAB6FC82A260E9800433FE7 /* Build configuration list for PBXNativeTarget "SwiftOpenAI_StreamingResponseUITests" */;
 			buildPhases = (
 				4AAB6FB42A260E9800433FE7 /* Sources */,
 				4AAB6FB52A260E9800433FE7 /* Frameworks */,
@@ -225,9 +225,9 @@
 			dependencies = (
 				4AAB6FBA2A260E9800433FE7 /* PBXTargetDependency */,
 			);
-			name = Matplanleggern2UITests;
+			name = SwiftOpenAI_StreamingResponseUITests;
 			productName = Matplanleggern2UITests;
-			productReference = 4AAB6FB82A260E9800433FE7 /* Matplanleggern2UITests.xctest */;
+			productReference = 4AAB6FB82A260E9800433FE7 /* SwiftOpenAI_StreamingResponseUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -253,7 +253,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4AAB6F992A260E9600433FE7 /* Build configuration list for PBXProject "Matplanleggern2" */;
+			buildConfigurationList = 4AAB6F992A260E9600433FE7 /* Build configuration list for PBXProject "SwiftOpenAI_StreamingResponse" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -272,9 +272,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4AAB6F9D2A260E9600433FE7 /* Matplanleggern2 */,
-				4AAB6FAD2A260E9800433FE7 /* Matplanleggern2Tests */,
-				4AAB6FB72A260E9800433FE7 /* Matplanleggern2UITests */,
+				4AAB6F9D2A260E9600433FE7 /* SwiftOpenAI_StreamingResponse */,
+				4AAB6FAD2A260E9800433FE7 /* SwiftOpenAI_StreamingResponseTests */,
+				4AAB6FB72A260E9800433FE7 /* SwiftOpenAI_StreamingResponseUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -322,7 +322,7 @@
 				4AAB6FA22A260E9600433FE7 /* ChatGPTAPIModels.swift in Sources */,
 				4AAB6FCE2A260F5200433FE7 /* DotLoadingView.swift in Sources */,
 				4AAB6FD82A260FFD00433FE7 /* ResponseParsingTask.swift in Sources */,
-				4AAB6FE42A26128000433FE7 /* Matplanleggern2App.swift in Sources */,
+				4AAB6FE42A26128000433FE7 /* SwiftOpenAI_StreamingResponse2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AAB6FB32A260E9800433FE7 /* Matplanleggern2Tests.swift in Sources */,
+				4AAB6FB32A260E9800433FE7 /* SwiftOpenAI_StreamingResponseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,8 +338,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AAB6FBF2A260E9800433FE7 /* Matplanleggern2UITestsLaunchTests.swift in Sources */,
-				4AAB6FBD2A260E9800433FE7 /* Matplanleggern2UITests.swift in Sources */,
+				4AAB6FBF2A260E9800433FE7 /* SwiftOpenAI_StreamingResponseUITestsLaunchTests.swift in Sources */,
+				4AAB6FBD2A260E9800433FE7 /* SwiftOpenAI_StreamingResponseUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,12 +348,12 @@
 /* Begin PBXTargetDependency section */
 		4AAB6FB02A260E9800433FE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4AAB6F9D2A260E9600433FE7 /* Matplanleggern2 */;
+			target = 4AAB6F9D2A260E9600433FE7 /* SwiftOpenAI_StreamingResponse */;
 			targetProxy = 4AAB6FAF2A260E9800433FE7 /* PBXContainerItemProxy */;
 		};
 		4AAB6FBA2A260E9800433FE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4AAB6F9D2A260E9600433FE7 /* Matplanleggern2 */;
+			target = 4AAB6F9D2A260E9600433FE7 /* SwiftOpenAI_StreamingResponse */;
 			targetProxy = 4AAB6FB92A260E9800433FE7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -480,7 +480,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Matplanleggern2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftOpenAI_StreamingResponse/Preview Content\"";
 				DEVELOPMENT_TEAM = DPHQABABA4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -495,7 +495,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kristoffer.MatPlanleggern1.MatPlanleggern.Matplanleggern2;
+				PRODUCT_BUNDLE_IDENTIFIER = "-Users-kristoffervatnehol-Documents-GitHub-NewProjectName-Matplanleggern2-Preview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -510,7 +510,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Matplanleggern2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftOpenAI_StreamingResponse/Preview Content\"";
 				DEVELOPMENT_TEAM = DPHQABABA4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -525,7 +525,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kristoffer.MatPlanleggern1.MatPlanleggern.Matplanleggern2;
+				PRODUCT_BUNDLE_IDENTIFIER = "-Users-kristoffervatnehol-Documents-GitHub-NewProjectName-Matplanleggern2-Preview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -549,7 +549,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Matplanleggern2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Matplanleggern2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftOpenAI_StreamingResponse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftOpenAI_StreamingResponse";
 			};
 			name = Debug;
 		};
@@ -569,7 +569,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Matplanleggern2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Matplanleggern2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftOpenAI_StreamingResponse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftOpenAI_StreamingResponse";
 			};
 			name = Release;
 		};
@@ -612,7 +612,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4AAB6F992A260E9600433FE7 /* Build configuration list for PBXProject "Matplanleggern2" */ = {
+		4AAB6F992A260E9600433FE7 /* Build configuration list for PBXProject "SwiftOpenAI_StreamingResponse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AAB6FC02A260E9800433FE7 /* Debug */,
@@ -621,7 +621,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AAB6FC22A260E9800433FE7 /* Build configuration list for PBXNativeTarget "Matplanleggern2" */ = {
+		4AAB6FC22A260E9800433FE7 /* Build configuration list for PBXNativeTarget "SwiftOpenAI_StreamingResponse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AAB6FC32A260E9800433FE7 /* Debug */,
@@ -630,7 +630,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AAB6FC52A260E9800433FE7 /* Build configuration list for PBXNativeTarget "Matplanleggern2Tests" */ = {
+		4AAB6FC52A260E9800433FE7 /* Build configuration list for PBXNativeTarget "SwiftOpenAI_StreamingResponseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AAB6FC62A260E9800433FE7 /* Debug */,
@@ -639,7 +639,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AAB6FC82A260E9800433FE7 /* Build configuration list for PBXNativeTarget "Matplanleggern2UITests" */ = {
+		4AAB6FC82A260E9800433FE7 /* Build configuration list for PBXNativeTarget "SwiftOpenAI_StreamingResponseUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AAB6FC92A260E9800433FE7 /* Debug */,

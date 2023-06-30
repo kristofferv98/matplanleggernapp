@@ -6,9 +6,9 @@
 //
 
 import XCTest
-@testable import Matplanleggern2
+@testable import SwiftOpenAI_StreamingResponse
 
-final class Matplanleggern2Tests: XCTestCase {
+final class SwiftOpenAI_StreamingResponseTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

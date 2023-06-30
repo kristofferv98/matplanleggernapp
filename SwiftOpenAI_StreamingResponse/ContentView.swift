@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         chatListView
             // Tip: You can replace "Matplanleggern" with your application's name or title.
-            .navigationTitle("Matplanleggern")
+            .navigationTitle("AI Assistant")
     }
     
     var chatListView: some View {
@@ -139,8 +139,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
-            // (CUSTOMIZABLE): You can replace the apiKey with your own API key.
-            ContentView(vm: ViewModel(api: ChatGPTAPI(apiKey: "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")))
+            
         }
     }
 }

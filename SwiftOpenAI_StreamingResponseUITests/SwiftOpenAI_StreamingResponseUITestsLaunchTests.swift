@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class Matplanleggern2UITestsLaunchTests: XCTestCase {
+final class SwiftOpenAI_StreamingResponseUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
