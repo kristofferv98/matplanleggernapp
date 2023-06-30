@@ -53,7 +53,7 @@ Applying different styles to the parsed text based on the Markdown element type.
 This allows it to display rich text content that is formatted using Markdown syntax.
 ## License
 
-Please see the [LICENSE](https://github.com/kristofferv98/SwiftOpenAI_StreamingResponse/blob/main/LICENSE) file for details.
+Please see the [LICENSE]([https://github.com/kristofferv98/SwiftOpenAI_StreamingResponse/blob/main/LICENSE](https://github.com/kristofferv98/SwiftOpenAI_StreamingResponse/blob/main/LICENCE)) file for details.
 
 ## Contact Information
 
