@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AAB6FA22A260E9600433FE7 /* Matplanleggern2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FA12A260E9600433FE7 /* Matplanleggern2App.swift */; };
+		4AAB6FA22A260E9600433FE7 /* ChatGPTAPIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FA12A260E9600433FE7 /* ChatGPTAPIModels.swift */; };
 		4AAB6FA42A260E9600433FE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FA32A260E9600433FE7 /* ContentView.swift */; };
 		4AAB6FA62A260E9800433FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AAB6FA52A260E9800433FE7 /* Assets.xcassets */; };
 		4AAB6FA92A260E9800433FE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AAB6FA82A260E9800433FE7 /* Preview Assets.xcassets */; };
 		4AAB6FB32A260E9800433FE7 /* Matplanleggern2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FB22A260E9800433FE7 /* Matplanleggern2Tests.swift */; };
 		4AAB6FBD2A260E9800433FE7 /* Matplanleggern2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FBC2A260E9800433FE7 /* Matplanleggern2UITests.swift */; };
 		4AAB6FBF2A260E9800433FE7 /* Matplanleggern2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FBE2A260E9800433FE7 /* Matplanleggern2UITestsLaunchTests.swift */; };
+		4AAB6FCC2A260ECD00433FE7 /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FCB2A260ECD00433FE7 /* ChatGPTAPI.swift */; };
+		4AAB6FCE2A260F5200433FE7 /* DotLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FCD2A260F5200433FE7 /* DotLoadingView.swift */; };
+		4AAB6FD02A260F8000433FE7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FCF2A260F8000433FE7 /* ViewModel.swift */; };
+		4AAB6FD22A260F9F00433FE7 /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FD12A260F9F00433FE7 /* MessageRow.swift */; };
+		4AAB6FD42A260FC200433FE7 /* MarkdownAttributedStringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FD32A260FC200433FE7 /* MarkdownAttributedStringParser.swift */; };
+		4AAB6FD62A260FE300433FE7 /* ParserResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FD52A260FE300433FE7 /* ParserResult.swift */; };
+		4AAB6FD82A260FFD00433FE7 /* ResponseParsingTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FD72A260FFD00433FE7 /* ResponseParsingTask.swift */; };
+		4AAB6FDA2A26101D00433FE7 /* CodeBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FD92A26101D00433FE7 /* CodeBlockView.swift */; };
+		4AAB6FDC2A26106400433FE7 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FDB2A26106400433FE7 /* MessageRowView.swift */; };
+		4AAB6FDF2A2610E700433FE7 /* Markdown in Frameworks */ = {isa = PBXBuildFile; productRef = 4AAB6FDE2A2610E700433FE7 /* Markdown */; };
+		4AAB6FE22A26110200433FE7 /* Highlighter in Frameworks */ = {isa = PBXBuildFile; productRef = 4AAB6FE12A26110200433FE7 /* Highlighter */; };
+		4AAB6FE42A26128000433FE7 /* Matplanleggern2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FE32A26128000433FE7 /* Matplanleggern2App.swift */; };
+		4AAB6FED2A26139A00433FE7 /* GPTEncoder in Frameworks */ = {isa = PBXBuildFile; productRef = 4AAB6FEC2A26139A00433FE7 /* GPTEncoder */; };
+		4AAB6FF02A26148900433FE7 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4AAB6FEF2A26148900433FE7 /* OpenAISwift */; };
+		4AAB70002A2AA8A100433FE7 /* PromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FFF2A2AA8A100433FE7 /* PromptView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +50,7 @@
 
 /* Begin PBXFileReference section */
 		4AAB6F9E2A260E9600433FE7 /* Matplanleggern2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matplanleggern2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AAB6FA12A260E9600433FE7 /* Matplanleggern2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matplanleggern2App.swift; sourceTree = "<group>"; };
+		4AAB6FA12A260E9600433FE7 /* ChatGPTAPIModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = ChatGPTAPIModels.swift; sourceTree = "<group>"; };
 		4AAB6FA32A260E9600433FE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4AAB6FA52A260E9800433FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AAB6FA82A260E9800433FE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,6 +59,17 @@
 		4AAB6FB82A260E9800433FE7 /* Matplanleggern2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Matplanleggern2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AAB6FBC2A260E9800433FE7 /* Matplanleggern2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matplanleggern2UITests.swift; sourceTree = "<group>"; };
 		4AAB6FBE2A260E9800433FE7 /* Matplanleggern2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matplanleggern2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4AAB6FCB2A260ECD00433FE7 /* ChatGPTAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAPI.swift; sourceTree = "<group>"; };
+		4AAB6FCD2A260F5200433FE7 /* DotLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLoadingView.swift; sourceTree = "<group>"; };
+		4AAB6FCF2A260F8000433FE7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4AAB6FD12A260F9F00433FE7 /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
+		4AAB6FD32A260FC200433FE7 /* MarkdownAttributedStringParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownAttributedStringParser.swift; sourceTree = "<group>"; };
+		4AAB6FD52A260FE300433FE7 /* ParserResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserResult.swift; sourceTree = "<group>"; };
+		4AAB6FD72A260FFD00433FE7 /* ResponseParsingTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseParsingTask.swift; sourceTree = "<group>"; };
+		4AAB6FD92A26101D00433FE7 /* CodeBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBlockView.swift; sourceTree = "<group>"; };
+		4AAB6FDB2A26106400433FE7 /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
+		4AAB6FE32A26128000433FE7 /* Matplanleggern2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matplanleggern2App.swift; sourceTree = "<group>"; };
+		4AAB6FFF2A2AA8A100433FE7 /* PromptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromptView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +77,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AAB6FF02A26148900433FE7 /* OpenAISwift in Frameworks */,
+				4AAB6FE22A26110200433FE7 /* Highlighter in Frameworks */,
+				4AAB6FDF2A2610E700433FE7 /* Markdown in Frameworks */,
+				4AAB6FED2A26139A00433FE7 /* GPTEncoder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +124,20 @@
 		4AAB6FA02A260E9600433FE7 /* Matplanleggern2 */ = {
 			isa = PBXGroup;
 			children = (
-				4AAB6FA12A260E9600433FE7 /* Matplanleggern2App.swift */,
+				4AAB6FA12A260E9600433FE7 /* ChatGPTAPIModels.swift */,
+				4AAB6FCB2A260ECD00433FE7 /* ChatGPTAPI.swift */,
+				4AAB6FE32A26128000433FE7 /* Matplanleggern2App.swift */,
+				4AAB6FCD2A260F5200433FE7 /* DotLoadingView.swift */,
 				4AAB6FA32A260E9600433FE7 /* ContentView.swift */,
+				4AAB6FCF2A260F8000433FE7 /* ViewModel.swift */,
+				4AAB6FD12A260F9F00433FE7 /* MessageRow.swift */,
+				4AAB6FDB2A26106400433FE7 /* MessageRowView.swift */,
+				4AAB6FD52A260FE300433FE7 /* ParserResult.swift */,
+				4AAB6FD32A260FC200433FE7 /* MarkdownAttributedStringParser.swift */,
+				4AAB6FD92A26101D00433FE7 /* CodeBlockView.swift */,
+				4AAB6FD72A260FFD00433FE7 /* ResponseParsingTask.swift */,
 				4AAB6FA52A260E9800433FE7 /* Assets.xcassets */,
+				4AAB6FFF2A2AA8A100433FE7 /* PromptView.swift */,
 				4AAB6FA72A260E9800433FE7 /* Preview Content */,
 			);
 			path = Matplanleggern2;
@@ -143,6 +184,12 @@
 			dependencies = (
 			);
 			name = Matplanleggern2;
+			packageProductDependencies = (
+				4AAB6FDE2A2610E700433FE7 /* Markdown */,
+				4AAB6FE12A26110200433FE7 /* Highlighter */,
+				4AAB6FEC2A26139A00433FE7 /* GPTEncoder */,
+				4AAB6FEF2A26148900433FE7 /* OpenAISwift */,
+			);
 			productName = Matplanleggern2;
 			productReference = 4AAB6F9E2A260E9600433FE7 /* Matplanleggern2.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +262,12 @@
 				Base,
 			);
 			mainGroup = 4AAB6F952A260E9600433FE7;
+			packageReferences = (
+				4AAB6FDD2A2610E700433FE7 /* XCRemoteSwiftPackageReference "swift-markdown" */,
+				4AAB6FE02A26110200433FE7 /* XCRemoteSwiftPackageReference "HighlighterSwift" */,
+				4AAB6FEB2A26139A00433FE7 /* XCRemoteSwiftPackageReference "GPTEncoder" */,
+				4AAB6FEE2A26148900433FE7 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+			);
 			productRefGroup = 4AAB6F9F2A260E9600433FE7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +310,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AAB6FD02A260F8000433FE7 /* ViewModel.swift in Sources */,
+				4AAB6FDA2A26101D00433FE7 /* CodeBlockView.swift in Sources */,
+				4AAB6FD62A260FE300433FE7 /* ParserResult.swift in Sources */,
+				4AAB70002A2AA8A100433FE7 /* PromptView.swift in Sources */,
+				4AAB6FDC2A26106400433FE7 /* MessageRowView.swift in Sources */,
+				4AAB6FCC2A260ECD00433FE7 /* ChatGPTAPI.swift in Sources */,
+				4AAB6FD22A260F9F00433FE7 /* MessageRow.swift in Sources */,
 				4AAB6FA42A260E9600433FE7 /* ContentView.swift in Sources */,
-				4AAB6FA22A260E9600433FE7 /* Matplanleggern2App.swift in Sources */,
+				4AAB6FD42A260FC200433FE7 /* MarkdownAttributedStringParser.swift in Sources */,
+				4AAB6FA22A260E9600433FE7 /* ChatGPTAPIModels.swift in Sources */,
+				4AAB6FCE2A260F5200433FE7 /* DotLoadingView.swift in Sources */,
+				4AAB6FD82A260FFD00433FE7 /* ResponseParsingTask.swift in Sources */,
+				4AAB6FE42A26128000433FE7 /* Matplanleggern2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +489,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +519,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,6 +649,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4AAB6FDD2A2610E700433FE7 /* XCRemoteSwiftPackageReference "swift-markdown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-markdown.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+		4AAB6FE02A26110200433FE7 /* XCRemoteSwiftPackageReference "HighlighterSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/HighlighterSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		4AAB6FEB2A26139A00433FE7 /* XCRemoteSwiftPackageReference "GPTEncoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/GPTEncoder.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		4AAB6FEE2A26148900433FE7 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4AAB6FDE2A2610E700433FE7 /* Markdown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AAB6FDD2A2610E700433FE7 /* XCRemoteSwiftPackageReference "swift-markdown" */;
+			productName = Markdown;
+		};
+		4AAB6FE12A26110200433FE7 /* Highlighter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AAB6FE02A26110200433FE7 /* XCRemoteSwiftPackageReference "HighlighterSwift" */;
+			productName = Highlighter;
+		};
+		4AAB6FEC2A26139A00433FE7 /* GPTEncoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AAB6FEB2A26139A00433FE7 /* XCRemoteSwiftPackageReference "GPTEncoder" */;
+			productName = GPTEncoder;
+		};
+		4AAB6FEF2A26148900433FE7 /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AAB6FEE2A26148900433FE7 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4AAB6F962A260E9600433FE7 /* Project object */;
 }
