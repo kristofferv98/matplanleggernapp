@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLName</key>
+            <string>kristoffer.MatPlanleggern1</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>app-1-90648214249-ios-313448db8cae2c5086ce78</string>
+                <string>com.googleusercontent.apps.90648214249-spch15pb8ngkfcidtjqc5dka0o9n991h</string>
+                <string>kristoffer.MatPlanleggern1.appleSignIn</string>
+            </array>
+        </dict>
+    </array>
+</dict>
+</plist>
